@@ -5,8 +5,6 @@ import streamlit as st
 import secrets, hmac, hashlib, time
 from datetime import date
 
-from services import validators as V, image_quality as IQ, risk as R
-
 st.set_page_config(page_title='Smart e-KYC | Demo', page_icon='🏦', layout='centered')
 st.markdown('<style>.block-container{max-width:680px;padding-top:1.4rem}'
             'div.stButton>button{width:100%;border-radius:12px}h1{color:#12366a}</style>',
